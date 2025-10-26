@@ -1,0 +1,19 @@
+{
+  "name": "go-analysis-mcp",
+  "version": "1.0.0",
+  "description": "围棋分析对话系统 - 使用LLM和MCP协议实现",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-mcp-server": "node mcp-server.js",
+    "start-llm-client": "node llm-client.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonrpc-lite": "^2.2.0",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.17.1"
+  },
+  "type": "module"
+}
