@@ -16,7 +16,6 @@
 ```
 /Users/dickphilipp/Documents/go-android/
 ├── nodejs_go_mcp/      # Node.js实现的MCP服务器和LLM客户端
-├── katago_mcp.py       # Python实现的KataGo MCP接口
 ├── deepseek.py         # DeepSeek API集成工具
 ├── doubao.py           # 豆包API集成工具
 ├── gtp_logs/           # GTP通信日志目录
@@ -36,7 +35,6 @@
 
 ### Python工具
 
-- **katago_mcp.py** - Python实现的KataGo MCP接口
 - **deepseek.py** - DeepSeek API调用工具
 - **doubao.py** - 豆包API调用工具
 
